@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:native_code/widgets/battery_state_widget.dart';
 
-import '../helper/native_communicate_helper.dart';
+import '../services/battery_service.dart';
 
 class BatteryScreen extends StatefulWidget {
   const BatteryScreen({super.key, required this.title});

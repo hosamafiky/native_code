@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:native_code/helper/native_communicate_helper.dart';
 
+import '../services/battery_service.dart';
 import 'battery_level_indicator.dart';
 
 class BatteryStateWidget extends StatelessWidget {

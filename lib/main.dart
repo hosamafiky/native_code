@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'screens/battery_screen.dart';
+import 'package:native_code/screens/main_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,11 +12,12 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const BatteryScreen(title: 'Battery Status'),
+      home: const MainScreen(),
     );
   }
 }
